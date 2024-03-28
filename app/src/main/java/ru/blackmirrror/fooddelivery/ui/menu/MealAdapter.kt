@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.google.android.material.button.MaterialButton
+import ru.blackmirrror.domain.models.Meal
 import ru.blackmirrror.fooddelivery.R
-import ru.blackmirrror.fooddelivery.domain.models.Meal
 
 class MealAdapter: ListAdapter<Meal, MealAdapter.MealViewHolder>(MealItemCallback()) {
 

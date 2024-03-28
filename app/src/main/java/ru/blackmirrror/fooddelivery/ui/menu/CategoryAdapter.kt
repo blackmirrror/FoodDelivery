@@ -1,16 +1,14 @@
 package ru.blackmirrror.fooddelivery.ui.menu
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import ru.blackmirrror.domain.models.Category
 import ru.blackmirrror.fooddelivery.R
-import ru.blackmirrror.fooddelivery.domain.models.Category
 
 class CategoryAdapter: ListAdapter<Category, CategoryAdapter.CategoryViewHolder>(CategoryItemCallback()) {
 

@@ -5,18 +5,18 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import ru.blackmirrror.fooddelivery.domain.models.Banner
-import ru.blackmirrror.fooddelivery.domain.models.Category
-import ru.blackmirrror.fooddelivery.domain.models.ClientError
-import ru.blackmirrror.fooddelivery.domain.models.Meal
-import ru.blackmirrror.fooddelivery.domain.models.NoContent
-import ru.blackmirrror.fooddelivery.domain.models.NoInternet
-import ru.blackmirrror.fooddelivery.domain.models.ResultState
-import ru.blackmirrror.fooddelivery.domain.models.ServerError
-import ru.blackmirrror.fooddelivery.domain.usecases.GetBannersUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetCategoriesUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetMealsByCategoryUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetMealsUseCase
+import ru.blackmirrror.domain.models.Banner
+import ru.blackmirrror.domain.models.Category
+import ru.blackmirrror.domain.models.ClientError
+import ru.blackmirrror.domain.models.Meal
+import ru.blackmirrror.domain.models.NoContent
+import ru.blackmirrror.domain.models.NoInternet
+import ru.blackmirrror.domain.models.ResultState
+import ru.blackmirrror.domain.models.ServerError
+import ru.blackmirrror.domain.usecases.GetBannersUseCase
+import ru.blackmirrror.domain.usecases.GetCategoriesUseCase
+import ru.blackmirrror.domain.usecases.GetMealsByCategoryUseCase
+import ru.blackmirrror.domain.usecases.GetMealsUseCase
 
 class MenuViewModel(
     private val getMealsUseCase: GetMealsUseCase,

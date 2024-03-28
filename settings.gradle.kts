@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Food Delivery"
 include(":app")
- 
+include(":data")
+include(":domain")

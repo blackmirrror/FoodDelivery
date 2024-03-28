@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import ru.blackmirrror.domain.models.Banner
 import ru.blackmirrror.fooddelivery.R
-import ru.blackmirrror.fooddelivery.domain.models.Banner
 
 class BannerAdapter: ListAdapter<Banner, BannerAdapter.BannerViewHolder>(BannerItemCallback()) {
 

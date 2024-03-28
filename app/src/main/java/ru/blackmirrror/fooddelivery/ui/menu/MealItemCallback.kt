@@ -1,7 +1,7 @@
 package ru.blackmirrror.fooddelivery.ui.menu
 
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
-import ru.blackmirrror.fooddelivery.domain.models.Meal
+import ru.blackmirrror.domain.models.Meal
 
 class MealItemCallback: ItemCallback<Meal>() {
     override fun areItemsTheSame(oldItem: Meal, newItem: Meal): Boolean {

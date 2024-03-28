@@ -1,10 +1,10 @@
 package ru.blackmirrror.fooddelivery.app.di
 
 import org.koin.dsl.module
-import ru.blackmirrror.fooddelivery.domain.usecases.GetBannersUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetCategoriesUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetMealsByCategoryUseCase
-import ru.blackmirrror.fooddelivery.domain.usecases.GetMealsUseCase
+import ru.blackmirrror.domain.usecases.GetBannersUseCase
+import ru.blackmirrror.domain.usecases.GetCategoriesUseCase
+import ru.blackmirrror.domain.usecases.GetMealsByCategoryUseCase
+import ru.blackmirrror.domain.usecases.GetMealsUseCase
 
 val domainModule = module {
     factory {

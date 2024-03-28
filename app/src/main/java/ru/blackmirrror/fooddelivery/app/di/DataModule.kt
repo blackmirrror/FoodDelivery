@@ -1,14 +1,14 @@
 package ru.blackmirrror.fooddelivery.app.di
 
 import org.koin.dsl.module
-import ru.blackmirrror.fooddelivery.data.api.ApiFactory
-import ru.blackmirrror.fooddelivery.data.local.FoodDb
-import ru.blackmirrror.fooddelivery.data.local.FoodDbFactory
-import ru.blackmirrror.fooddelivery.data.remote.ApiService
-import ru.blackmirrror.fooddelivery.data.repositories.CategoryRepositoryImpl
+import ru.blackmirrror.data.api.ApiFactory
+import ru.blackmirrror.data.local.FoodDb
+import ru.blackmirrror.data.local.FoodDbFactory
+import ru.blackmirrror.data.remote.ApiService
+import ru.blackmirrror.data.repositories.CategoryRepositoryImpl
+import ru.blackmirrror.domain.repositories.CategoryRepository
+import ru.blackmirrror.domain.repositories.MealRepository
 import ru.blackmirrror.fooddelivery.data.repositories.MealRepositoryImpl
-import ru.blackmirrror.fooddelivery.domain.repositories.CategoryRepository
-import ru.blackmirrror.fooddelivery.domain.repositories.MealRepository
 
 val dataModule = module {
     single<MealRepository> {
