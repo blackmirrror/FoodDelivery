@@ -4,4 +4,12 @@
     <string name="title_menu">Меню</string>
     <string name="title_account">Профиль</string>
     <string name="title_cart">Корзина</string>
+    <string name="in_development">В разработке ;)</string>
+
+    <string-array name="spinner_city_items">
+        <item>Москва</item>
+        <item>Нижний Новгород</item>
+        <item>Казань</item>
+        <item>Другой город</item>
+    </string-array>
 </resources>
